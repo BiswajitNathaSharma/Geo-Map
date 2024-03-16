@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+#map {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+.live-location{
+    position: absolute;
+    bottom: 1.5vw;
+    background:transparent;
+    border: none;
+}
+.live-location i{
+    font-size: 4vw;
+    transition: all  .3s ease-in-out;
+}
+.live-location i:hover{
+    opacity:  .7;
+}
+@media (max-width: 500px) {
+    .live-location{
+        bottom: 4vw;
+    }
+    .live-location i{
+    font-size: 13vw;
+}
+}
