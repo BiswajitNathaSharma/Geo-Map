@@ -9,10 +9,7 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet">
-    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
-
-    <script
-        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.2.0/mapbox-gl-directions.js"></script>
+    
     <link rel="stylesheet"
         href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.2.0/mapbox-gl-directions.css"
         type="text/css">
@@ -21,10 +18,14 @@
 </head>
 
 <body>
-    
     <div id="map"></div>
-    <button class="live-location" onclick="userCurrentPosition()"><i class='bx bx-target-lock'></i> </button>
-    <script src="./script.js"></script>
+    <button class="live-location" id ="userCurrentPosition"><i class='bx bx-target-lock'></i> </button>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.2.0/mapbox-gl-directions.js"></script>
+    <script type="module" src="./script.js"></script>
 </body>
 
 </html>
